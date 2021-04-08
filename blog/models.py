@@ -6,7 +6,6 @@ from datetime import date
 from django.urls import reverse  # Used to generate URLs by reversing the URL patterns
 from django.contrib.auth.models import User  # Blog author or commenter
 
-
 class BlogAuthor(models.Model):
     """
     Model representing a blogger.
